@@ -28,6 +28,12 @@ However, we don't want a process to have to wait for a particular object to be r
 Check list
 =========
 
-Create ObjectPool class with private array of Objects inside
-Create acquare and release methods in ObjectPool class
-Make sure that your ObjectPool is Singleton
+- Create ObjectPool class with private array of Objects inside
+- Create acquare and release methods in ObjectPool class
+- Make sure that your ObjectPool is Singleton
+
+Examples
+=========
+In the .NET Base Class Library there are a few objects that implement this pattern. System.Threading.ThreadPool is configured to have a predefined number of threads to allocate. When the threads are returned, they are available for another computation. Thus, one can use threads without paying the cost of creation and disposal of threads.
+
+Java supports thread pooling via <b>java.util.concurrent.ExecutorService</b> and other related classes. The executor service has a certain number of "basic" threads that are never discarded. If all threads are busy, the service allocates the allowed number of extra threads that are later discarded if not used for the certain expiration time. If no more threads are allowed, the tasks can be placed in the queue. Finally, if this queue may get too long, it can be configured to suspend the requesting thread.
