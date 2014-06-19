@@ -1,4 +1,4 @@
-package me.pjq.objectpool.app;
+package me.pjq.objectpool.app.demo;
 
 import java.sql.Connection;
 
@@ -18,6 +18,5 @@ public class ObjectPoolMain {
 
         //return the connection
         pool.release(connection);
-
     }
 }

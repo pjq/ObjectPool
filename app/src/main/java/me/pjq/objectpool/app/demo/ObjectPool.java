@@ -1,4 +1,4 @@
-package me.pjq.objectpool.app;
+package me.pjq.objectpool.app.demo;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
