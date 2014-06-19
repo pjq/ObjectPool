@@ -12,6 +12,10 @@ Demo
 [Source code(Java)](https://github.com/pjq/ObjectPool/tree/master/app/src/main/java/me/pjq/objectpool/app/demo)
 
 
+Definition
+=========
+The object pool pattern is a creational design pattern that uses a set of initialized objects kept ready to use – a "pool" – rather than allocating and destroying them on demand. A client of the pool will request an object from the pool and perform operations on the returned object. When the client has finished, it returns the object to the pool rather than destroying it; this can be done manually or automatically.
+
 Intent
 =========
 
