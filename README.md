@@ -24,6 +24,11 @@ Object pools (otherwise known as resource pools) are used to manage the object c
 
 It is desirable to keep all Reusable objects that are not currently in use in the same object pool so that they can be managed by one coherent policy. To achieve this, the Reusable Pool class is designed to be a singleton class.
 
+
+Structure
+=========
+![Object pool example](http://sourcemaking.com/files/v2/content/patterns/Object_pool_example1-2x.png)
+
 Discussion
 =========
 
