@@ -3,11 +3,13 @@ Object Pool Design Pattern
 
 Object Pool design pattern demo
 
-Refer to http://sourcemaking.com/design_patterns/object_pool
+Reference
+- [Object pool](http://sourcemaking.com/design_patterns/object_pool)
+- [Wikipedia Object pool pattern](https://en.wikipedia.org/wiki/Object_pool_pattern)
 
 Demo
 =========
-[Source code](https://github.com/pjq/ObjectPool/tree/master/app/src/main/java/me/pjq/objectpool/app/demo)
+[Source code(Java)](https://github.com/pjq/ObjectPool/tree/master/app/src/main/java/me/pjq/objectpool/app/demo)
 
 
 Intent
