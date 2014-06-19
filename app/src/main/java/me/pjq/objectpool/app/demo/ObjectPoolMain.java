@@ -13,7 +13,7 @@ public class ObjectPoolMain {
                 "sa", "secret");
 
         //Get a connection
-        Connection connection = pool.checkOut();
+        Connection connection = pool.acquare();
 
 
         //return the connection

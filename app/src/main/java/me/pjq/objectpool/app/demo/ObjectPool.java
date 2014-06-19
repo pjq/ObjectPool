@@ -23,7 +23,7 @@ public abstract class ObjectPool<T> {
 
     public abstract void expire(T o);
 
-    public synchronized T checkOut(){
+    public synchronized T acquare(){
         long now = System.currentTimeMillis();
 
         T t;
