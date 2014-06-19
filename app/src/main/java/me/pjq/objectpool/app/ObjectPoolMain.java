@@ -17,7 +17,7 @@ public class ObjectPoolMain {
 
 
         //return the connection
-        pool.checkIn(connection);
+        pool.release(connection);
 
     }
 }
