@@ -5,6 +5,10 @@ Object Pool design pattern demo
 
 Refer to http://sourcemaking.com/design_patterns/object_pool
 
+Demo
+=========
+[Source code](https://github.com/pjq/ObjectPool/tree/master/app/src/main/java/me/pjq/objectpool/app/demo)
+
 
 Intent
 =========
